@@ -1,0 +1,262 @@
+body{
+font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_img{
+    height: 25px;
+    margin-top: 12px;
+}
+#logo_word{
+    color: rgb(20,34,87);
+    font-family:sans-serif;
+    font-size: 25px;
+    margin-top: 12px;
+}
+#logo{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(97,101,124);
+    padding: 10px;
+    
+}
+#right_nav a{
+    text-decoration: none;
+    color: rgb(97,101,124);
+    border-left: 2px solid dimgray;
+    padding-left: 50px;
+   
+    
+}
+#right_nav{
+    margin-top: 10px;
+}
+.top_button{
+    width:200px;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(21,178,245);
+}
+#second_button{
+    background-color: rgb(31,53,132);
+    height: 30px;
+    width: 350px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+
+    margin-left: 400px;
+    margin-top: 50px;
+  
+
+}
+#button_div{
+    display: flex;
+    
+}
+#dream{
+    color: rgb(21,178,245);
+    font-family:'Sofia';
+}
+#dream_h1{
+    font-size: 80px;
+}
+#span_dream{
+margin-left: 200px;
+display: flex;
+flex-wrap: wrap;
+
+}
+#second_nav ul li{
+    list-style: none;
+}
+#second_nav{
+    margin-left: 400px;
+    display: flex;
+}
+#second_nav ul li a{
+    text-decoration: none;
+    color: rgb(97,101,124);
+    padding: 5px;
+}
+.house_search{
+    height:500px;
+    width: 100%;
+}
+#greenStar{
+    display: flex;
+}
+#review_section{
+    display: flex;
+    justify-content: space-between;
+}
+#after_reviews{
+    margin-left: 400px;
+    font-weight: lighter;
+   
+}
+#Customers{
+    display: flex;
+    margin-left: 150px;
+   
+}
+.people{
+    height: 300px;
+}
+#cutomer_right{
+    margin-left: 150px;
+}
+.houses_show{
+    border-radius: 20px;
+     height: 250px;
+}
+.beds{
+    height: 25px;
+}
+#selling{
+    display: flex;
+    justify-content: space-between;
+}
+.bed{
+    display: flex;
+    justify-content: space-between;
+}
+#learn{
+    display: flex;
+    margin-left: 50px;
+}
+#dream_h2{
+    font-size: 50px;
+}
+#properties{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding:  0 150px;
+   }
+   .last{
+    width:100%;
+   }
+   .dont{
+    font-size: 50px;
+     margin-left: 200px;
+
+   }
+   #selfies{
+   margin-left: 150px;
+   }
+   .selfies{
+    height: 400px;
+   }
+   #enter{
+    display: flex; 
+    margin-left:500px;
+   }
+   .h5_respect{
+    margin-left: 300px;
+   }
+   #listing{
+    display: flex; 
+    justify-content: space-between;
+   }
+
+   @media screen and (width:1440px){
+       .last{
+        width: 50%;
+       }
+       .learn{
+        height: 300px;
+       }
+       footer{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        margin-left:100px;
+
+       }
+       #enter{
+        display: flex; 
+        margin-left:200px;
+       }
+       .dont{
+        font-size: 30px;
+         margin-left: 100px;
+   }
+   .h5_respect{
+    margin-left: 100px;
+    
+   }
+   
+   .Listing1{
+    margin-left: -1800px; 
+    
+   }
+   .Listing2{
+    margin-left: -1800px; 
+    
+   }
+   .Listing3{
+    margin-left: -1400px; 
+    
+   }
+   .dont1{
+    margin-left: 50px;
+   }
+   .selfies{
+    height: 200px;
+   }
+   }
+   @media screen and(width:320px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top_button{
+        width:50px;
+    }
+    #second_button{
+        height: 30px;
+        width: 300px;    
+        margin-left: -200px;
+        margin-top: 50px;
+      
+    
+    }
+    #second_section{
+        margin-left: -3%;
+    }
+    #span_dream{
+        margin-left:0px auto;
+        flex-wrap: wrap;
+        
+        }
+        #dream_h1{
+            font-size: 20px;
+        }
+        #review_section{
+            
+            grid-template-columns: auto;
+        }
+        #Customers{
+            
+            margin-left: -150px;
+           
+        }
+
+   }
+    
+   
+   
